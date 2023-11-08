@@ -1,0 +1,9 @@
+#Ignore Json files
+*.Json
+**.Json
+
+#Ignore Terraform state files
+*.tfstate
+**.tfstate.backup
+.terraform
+*.lock.hcl
