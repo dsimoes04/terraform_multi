@@ -4,16 +4,11 @@ terraform {
       source  = "hashicorp/aws"
       version = ">=5.23.1"
     }
-    # google    = {
-    #  source  = "hashicorp/google"
-    #  version = ">=5.4.0"
-    # }
   }
 }
 
 provider "aws" {
   # Configuration options
-  #alias  = "aws"
   region = "us-east-1"
 }
 
